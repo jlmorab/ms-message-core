@@ -66,6 +66,15 @@
 	        <artifactId>logback-classic</artifactId>
 	    </dependency>
 	    
+	    <!-- Test Dependencies -->
+		
+		<dependency>
+			<groupId>com.jlmorab.ms</groupId>
+			<artifactId>ms-test-tools</artifactId>
+			<version>0.5.1</version>
+			<scope>test</scope>
+		</dependency>
+	
 	</dependencies>
 	
 	<build>
