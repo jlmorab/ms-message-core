@@ -11,7 +11,7 @@
 	</parent>
 	
 	<artifactId>ms-message-core</artifactId>
-	<version>0.0.1</version>
+	<version>0.1.0</version>
 	<name>ms-message-core</name>
 	<description>Common objets for broker messaging</description>
 	
@@ -42,6 +42,40 @@
 			<url>https://maven.pkg.github.com/jlmorab/ms</url>
 		</repository>
 	</repositories>
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+        <dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+		</dependency>
+
+	    <dependency>
+	        <groupId>ch.qos.logback</groupId>
+	        <artifactId>logback-classic</artifactId>
+	    </dependency>
+	    
+	    <!-- Test Dependencies -->
+		
+		<dependency>
+			<groupId>com.jlmorab.ms</groupId>
+			<artifactId>ms-test-tools</artifactId>
+			<version>0.5.1</version>
+			<scope>test</scope>
+		</dependency>
+	
+	</dependencies>
 	
 	<build>
 		
