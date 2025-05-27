@@ -12,7 +12,7 @@
 	
 	<groupId>com.jlmorab.ms.message</groupId>
 	<artifactId>ms-message-core</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<name>ms-message-core</name>
 	<description>Common objets for broker messaging</description>
 	
